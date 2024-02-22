@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/small logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Invenit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="">
+                <div class="logo">
+                    <img src="Images/logo.png" alt="">
+                </div>
+            </a>
+            <ul class="menu">
+                <li><a href="https://invenit.io" target="_blank">O nama</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li>
+                    <button class="menu-icon" onclick="openCloseMenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </button>
+                </li>
+            </ul>
+            <ul id="menu" style="display: none;" class="menu-items">
+                <li><a href="#about">Invenit praksa</a></li>
+                <li><a href="#students">Predavac</a></li>
+                <li><a href="#students">Polaznici</a></li>
+                <li><a href="#galery">Galerija</a></li>
+            </ul>
+    </header>
+    <main>
+        <section class="home-page">
+            <div class="left-column">
+                <h1>Iskustvo koje se ne uči iz knjiga!</h1>
+                <h3>Zeliš li steći prakticna znanja, upoznati se s
+                    realnim radnim okruženjem
+                    i pripremiti se za tržište rada?</h3>
+                <a href=""><button class="login-btn">Prijavi se</button></a>
+            </div>
+            <div class="right-column">
+                <img src="Images/homepage.jpg" alt="Slika ne moze biti ucitana">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h1>O praksi</h1>
+            <div class="pocetna">
+                <div class="pocetna-text">
+                    <h2>Praksa je ključna etapa u sticanju praktičnih vještina i iskustva u određenom području.
+                        Obično se održava tokom skolske godine, pružajući ucenicima priliku da 
+                        primijene teorijsko znanje u stvarnom svijetu. Praksa može biti
+                        iznimno korisna za razvoj karijere i izgradnju mreže profesionalnih kontakata.</h2>
+                    <h4>Trajanje prakse može varirati zavisno od programa ili dogovora s
+                        poslodavcem, ali obično traje 2 sedmice.Tokom prakse, polaznici imaju priliku
+                        raditi u stvarnom radnom okruženju i primijeniti svoje
+                        znanje na konkretnim projektima.
+                    </h4>
+                </div>
+                <div class="pocetna-image">
+                    <img src="Images/mi.jpeg" alt="">
+                </div>
+            </div>
+            <div class="dugme">
+                <button class="more">Saznaj vise</button>
+            </div>
+            </div>
+        </section>
+
+        <section class="students" id="students">
+            <h1>Predavac i polaznici</h1>
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-side">
+                        <div class="cover">
+                            <img src="Images/7-modified.png" class="profile">
+                        </div>
+                        <div class="name">Maja Predojevic</div>
+                        <div class="tag">Invenit Solution-Predavac</div>
+                    </div>
+                    <div class="back-side">
+                        <h1>Utisak o praksi</h1>
+                        <p>"Hocete pauzu?"</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front-side">
+                        <div class="cover">
+                            <img src="Images/4-modified.png" class="profile">
+                        </div>
+                        <div class="name">Marija Markanovic</div>
+                        <div class="tag">JU Elektrotehnicka skola "Nikola Tesla"</div>
+                    </div>
+                    <div class="back-side">
+                        <h1>Utisak o praksi</h1>
+                        <p>"Nije ovo ta boja, cek cek..ma ajd moze proci"</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front-side">
+                        <div class="cover">
+                            <img src="Images/5-modified.png" class="profile">
+                        </div>
+                        <div class="name">Dejan Grabovica</div>
+                        <div class="tag">JU Elektrotehnicka skola "Nikola Tesla"</div>
+                    </div>
+                    <div class="back-side">
+                        <h1>Utisak o praksi</h1>
+                        <p>"Aaa, sta je sad ovo..sta sam ja stisnuo?"</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front-side">
+                        <div class="cover">
+                            <img src="Images/2-modified.png" class="profile">
+                        </div>
+                        <div class="name">Aleksa Vidovic</div>
+                        <div class="tag">JU Elektrotehnicka skola "Nikola Tesla"</div>
+                    </div>
+                    <div class="back-side">
+                        <h1>Utisak o praksi</h1>
+                        <p>"Bolje da sam platio Mariju da ovo odradi i nadgleda"</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front-side">
+                        <div class="cover">
+                            <img src="Images/1-modified.png" class="profile">
+                        </div>
+                        <div class="name">Marko Kunovac</div>
+                        <div class="tag">JU Elektrotehnicka skola "Nikola Tesla"</div>
+                    </div>
+                    <div class="back-side">
+                        <h1>Utisak o praksi</h1>
+                        <p>"Jel znate zasto ribe ne znaju na sat?"</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front-side">
+                        <div class="cover">
+                            <img src="Images/image-modified.png" class="profile">
+                        </div>
+                        <div class="name">Sanjin Babic</div>
+                        <div class="tag">JU Elektrotehnicka skola "Nikola Tesla"</div>
+                    </div>
+                    <div class="back-side">
+                        <h1>Utisak o praksi</h1>
+                        <p>"Izvinite, jel imate jos bombona?"</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front-side">
+                        <div class="cover">
+                            <img src="Images/3-modified.png" class="profile">
+                        </div>
+                        <div class="name">Milan Curlic</div>
+                        <div class="tag">JU Elektrotehnicka skola "Nikola Tesla"</div>
+                    </div>
+                    <div class="back-side">
+                        <h1>Utisak o praksi</h1>
+                        <p>"Meni je footer sad dosao u main, sta je ovo."</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front-side">
+                        <div class="cover">
+                            <img src="Images/6-modified.png" class="profile">
+                        </div>
+                        <div class="name">Sergej Maric</div>
+                        <div class="tag">JU Elektrotehnicka skola "Nikola Tesla"</div>
+                    </div>
+                    <div class="back-side">
+                        <h1>Utisak o praksi</h1>
+                        <p>"Aj zivote, cekaj da ja to malo inspektujem"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="galery" id="galery">
+            <h1>Galerija</h1>
+            <div class="gallery-wrap">
+                <div class="item item-1"></div>
+                <div class="item item-2"></div>
+                <div class="item item-3"></div>
+                <div class="item item-4"></div>
+                <div class="item item-5"></div>
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer id="contact">
+        <div class="info">
+            <p>Informacije</p>
+            <hr>
+            <ul>
+                <li>Designed by: Marija Markanovic</li>
+                <li>All rights reserved</li>
+                <li>&copy; 2024 Invenit Solutions d.o.o.</li>
+            </ul>
+        </div>
+        <div class="contact-info">
+            <p>Kontakt</p>
+            <hr>
+            <ul>
+                <li>&#9993;<a href="mailto:m.markanovic04@gmail.com">m.markanovic04@gmail.com</a></li>
+                <li>&#9990;<a href="tel:+38766274286">066/274-286</a></li>
+                <li><a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a></a>
+                </li>
+            </ul>
+        </div>
+        <div class="location-info">
+            <p>Lokacija</p>
+            <hr>
+            <ul>
+                <li>Invenit Solutions d.o.o.</li>
+                <li>&#xf3c5;Bulevar Vojvode Stepe Stepanovica 171, lokal 2</li>
+            </ul>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11330.88663701205!2d17.2033815!3d44.766091!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475e038df5c82b93%3A0xc67207dc812f438c!2sInvenit%20Solutions!5e0!3m2!1sen!2sba!4v1708361069538!5m2!1sen!2sba"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
